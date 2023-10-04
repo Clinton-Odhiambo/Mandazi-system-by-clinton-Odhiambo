@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style type="text/css">
+        /* Style for the left section */
+        #left-section {
+            float: inline-end;
+            width: 100%;
+            height: 100%;
+            background-color: yellowgreen;
+            padding: 60px;
+        }
+
+        /* Style for the right section */
+        #right-section {
+            float: inline-start;
+            width: 100%;
+            height: 100%;
+            background-color: green;
+            padding: 150px;
+        }
+
+        /* Clear the floats after both sections */
+        .clearfix::after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+    </style>
+</head>
+<body>
+    <div id="left-section">
+        <!-- Content for the left section -->
+        <h1>Welcome to Our Website</h1>
+        <p>This is the left section of the webpage with a yellowgreen background.</p>
+        <button type="button"><a href="our team.html">Team</a></button>
+    </div>
+
+    <div id="right-section">
+        <!-- Content for the right section -->
+        <h1>Explore Our Offerings</h1>
+        <p>This is the right section of the webpage with a green background.</p>
+        <button type="button"><a href="location.html">Location</a></button>
+        <button type="button"><a href="buy mandazi.html">Buy</a></button>
+    </div>
+
+    <!-- Clear the floats -->
+    <div class="clearfix"></div>
+</body>
+</html>

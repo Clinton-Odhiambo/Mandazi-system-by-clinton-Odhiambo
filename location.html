@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>RCTI LOGIN</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        h1 {
+            color: rgb(6, 10, 10);
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            text-decoration: none;
+        }
+        body {
+            transition: background-color 10s ease-in-out;
+            background-image: url("this.png");
+            background-repeat: no-repeat;
+            background-position: center center;
+            background-size: cover;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0; 
+        }
+        .translucent-box {
+            background-color: rgba(255, 255, 255, 0.8);
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+            text-align: center;
+        }
+        .input-container {
+            margin-bottom: 10px;
+        }
+        .input-container input{
+            width: 80%;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            margin-top: 5px;
+        } 
+        .red {
+            background-color: rgb(100, 51, 51);
+        }
+        .green {
+            background-color: rgb(42, 135, 42);
+        }
+        .blue {
+            background-color: rgb(144, 0, 255);
+        }
+        .LOGIN-button {
+            background-color: #00cc00; 
+            color: #fff;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+        .LOGIN-button:hover {
+            background-color: #009900;
+        }
+        .LOGIN-button:active {
+            background-color: #007700;
+        }
+        .footnote-section {
+            background-color: black;
+            color: white;
+            padding: 20px 0; 
+            text-align: center; 
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+        }
+        .social-media-icons {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .social-media-icons a {
+            margin: 0 10px;
+            color: #fff;
+            font-size: 24px;
+            text-decoration: none;
+        }
+        .social-media-icons a:hover {
+            color: #00cc00;
+        }
+        
+    </style>
+</head>
+<body>
+    <h1>WELCOME TO RCTI HOSTEL</h1>
+    <form action="RCTI_home.html" method="POST">
+        <label for="USERNAME">USERNAME:</label>
+        <input type="text" id="USERNAME" name="USERNAME">
+        <br>
+        <br>
+        <label for="PASSWORD">PASSWORD:</label>
+        <input type="password" id="PASSWORD" name="PASSWORD">
+        <br>
+        <br>
+        <!-- Modify the button type to "submit" to trigger form submission -->
+        <button type="submit" class="LOGIN-button">LOGIN</button>
+    </form>
+</body>
+</html>
